@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="photostyle.css">
+</head>
+<body>
+ <header>
+    <h1>Phelicia's Photos</h1>
+    <nav>
+    <ul>
+        <li><a href="#">Architecture</a></li>
+        <li><a href="#">Commercial</a></li>
+        <li><a href="#">Landscape</a></li>
+        <li><a href="#">Travel</a></li>
+    </ul>
+</nav>
+</header>   
+<main>
+<section>
+<h2>Architecture</h2>
+<p>Architecture Photography involves photographing buildings and structures. They are accurate representations of the subjects, captured using specialised cameras and techniques.</p>
+<!-- responsive image for art direction since the various images change focal points -->
+<!-- for a min-width: 1264px, use https://assets.codepen.io/780423/arch-400.jpg -->
+<!-- for a max-width: 900px, use https://assets.codepen.io/780423/arch-500.jpg -->
+<!-- for a max-width: 675px, use https://assets.codepen.io/780423/arch-800.jpg -->
+<!-- fallback image alt="Île de Nantes, Nantes, France" -->
+<picture>
+    <!-- For screens with a minimum width of 1264px, use this image -->
+    <source media="(min-width: 1264px)" srcset="https://assets.codepen.io/780423/arch-400.jpg" alt="Île de Nantes, Nantes, France">
+  
+    <!-- For screens with a maximum width of 900px, use this image -->
+    <source media="(max-width: 900px)" srcset="https://assets.codepen.io/780423/arch-500.jpg" alt="Île de Nantes, Nantes, France">
+  
+    <!-- For screens with a maximum width of 675px, use this image -->
+    <source media="(max-width: 675px)" srcset="https://assets.codepen.io/780423/arch-800.jpg" alt="Île de Nantes, Nantes, France">
+    <img src="https://assets.codepen.io/780423/arch-400.jpg" alt="Île de Nantes, Nantes, France">
+  </picture>
+  <blockquote><small>Photo by <a href="https://unsplash.com/@valentinlacoste">Valentin Lacoste</a> on <a href="https://unsplash.com/s/photos/architectural">Unsplash</a></small>
+  </blockquote>
+</section>
+<section>
+<h2>Commercial</h2>
+<p>Commercial photography requires taking pictures for commercial use. They can promote or sell a product or service.</p>
+<!-- responsive image for art direction since the various images change focal points -->
+<!-- for a min-width: 1264px, use https://assets.codepen.io/780423/comm-400.jpg -->
+<!-- for a max-width: 900px, use https://assets.codepen.io/780423/comm-500.jpg -->
+<!-- for a max-width: 675px, use https://assets.codepen.io/780423/comm-800.jpg -->
+<!-- fallback image alt="overhead shot of a glass coke bottle" -->
+<picture>
+  <!-- For screens with a minimum width of 1264px, use this image -->
+  <source media="(min-width: 1264px)" srcset="https://assets.codepen.io/780423/comm-400.jpg" alt="overhead shot of a glass coke bottle">
+
+  <!-- For screens with a maximum width of 900px, use this image -->
+  <source media="(max-width: 900px)" srcset="https://assets.codepen.io/780423/comm-500.jpg" alt="overhead shot of a glass coke bottle">
+
+  <!-- For screens with a maximum width of 675px, use this image -->
+  <source media="(max-width: 675px)" srcset="https://assets.codepen.io/780423/comm-800.jpg" alt="overhead shot of a glass coke bottle">
+
+  <!-- Fallback image for browsers that do not support the <picture> element -->
+  <img src="https://assets.codepen.io/780423/comm-400.jpg" alt="overhead shot of a glass coke bottle">
+</picture>
+<blockquote><small>Photo by <a href="https://unsplash.com/@chernus_tr">Taras Chernus</a> on <a href="https://unsplash.com/s/photos/brand">Unsplash</a></small>
+</blockquote>
+</section>
+<section>
+<h2>Landscape</h2>
+<p>Landscape photography is the capturing of nature. They can be man-made features or the disturbances found in physical areas.</p>
+<!-- responsive image for art direction since the various images change focal points -->
+<!-- for a min-width: 1264px, use https://assets.codepen.io/780423/land-400.jpg -->
+<!-- for a max-width: 900px, use https://assets.codepen.io/780423/land-500.jpg -->
+<!-- for a max-width: 675px, use https://assets.codepen.io/780423/land-800.jpg -->
+<!-- fallback image alt="mountain and frozen lake landscape in Andenes, Norway" -->
+<picture>
+    <!-- For screens with a minimum width of 1264px, use this image -->
+    <source media="(min-width: 1264px)" srcset="https://assets.codepen.io/780423/land-400.jpg" alt="mountain and frozen lake landscape in Andenes, Norway">
+  
+    <!-- For screens with a maximum width of 900px, use this image -->
+    <source media="(max-width: 900px)" srcset="https://assets.codepen.io/780423/land-500.jpg" alt="mountain and frozen lake landscape in Andenes, Norway">
+  
+    <!-- For screens with a maximum width of 675px, use this image -->
+    <source media="(max-width: 675px)" srcset="https://assets.codepen.io/780423/land-800.jpg" alt="mountain and frozen lake landscape in Andenes, Norway">
+  
+    <!-- Fallback image for browsers that do not support the <picture> element -->
+    <img src="https://assets.codepen.io/780423/land-400.jpg" alt="mountain and frozen lake landscape in Andenes, Norway">
+  </picture>
+  <blockquote><small>Photo by <a href="https://unsplash.com/@debrupas">Pascal Debrunner</a> on <a href="https://unsplash.com/s/photos/landscape">Unsplash</a></small>
+  </blockquote>
+</section>
+<section>
+<h2>Travel</h2>
+<p>Travel photography documents an area or location through the application of photography. This incorporates portraiture, landscapes, street, and nighttime photography.</p>
+<!-- responsive image for art direction since the various images change focal points -->
+<!-- for a min-width: 1264px, use https://assets.codepen.io/780423/travel-400.jpg -->
+<!-- for a max-width: 900px, use https://assets.codepen.io/780423/travel-500.jpg -->
+<!-- for a max-width: 675px, use https://assets.codepen.io/780423/travel-800.jpg -->
+<!-- fallback image alt="POV from inside a car looking at a map with Hvalfjarðarsveit, Iceland outside" -->
+<picture>
+    <!-- For screens with a minimum width of 1264px, use this image -->
+    <source media="(min-width: 1264px)" srcset="https://assets.codepen.io/780423/travel-400.jpg" alt="POV from inside a car looking at a map with Hvalfjarðarsveit, Iceland outside">
+  
+    <!-- For screens with a maximum width of 900px, use this image -->
+    <source media="(max-width: 900px)" srcset="https://assets.codepen.io/780423/travel-500.jpg" alt="POV from inside a car looking at a map with Hvalfjarðarsveit, Iceland outside">
+  
+    <!-- For screens with a maximum width of 675px, use this image -->
+    <source media="(max-width: 675px)" srcset="https://assets.codepen.io/780423/travel-800.jpg" alt="POV from inside a car looking at a map with Hvalfjarðarsveit, Iceland outside">
+  
+    <!-- Fallback image for browsers that do not support the <picture> element -->
+    <img src="https://assets.codepen.io/780423/travel-400.jpg" alt="POV from inside a car looking at a map with Hvalfjarðarsveit, Iceland outside">
+  </picture>
+<blockquote><small>Photo by <a href="https://unsplash.com/@tabeadamm">Tabea Damm</a> on <a href="https://unsplash.com/s/photos/travel">Unsplash</a></small>
+</blockquote>
+</section>
+<p>Copy From <a href="https://expertphotography.com/types-of-photography">Expert Photography</a> Expert Photography and images from Unsplash</p>
+</main>
+<footer id="Social">
+Social Media Links
+<!-- add an SVG for Instagram from https://tablericons.com/ -->
+ <nav>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M16.5 7.5l0 .01" />
+  </svg>
+<!-- add an SVG for Twitter from https://tablericons.com/ -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+  </svg>
+
+<!-- add an SVG for Facebook from https://tablericons.com/ -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+  </svg>
+</nav>
+</footer>
+</body>
+</html>
